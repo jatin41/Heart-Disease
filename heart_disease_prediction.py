@@ -9,7 +9,7 @@ import streamlit as st
 
 
 # loading the csv data to a Pandas DataFrame
-heart_data = pd.read_csv('/Users/jatinagrawal/__pycache__/heart_disease_data.csv')
+heart_data = pd.read_csv('heart_disease_data.csv')
 
 # print first 5 rows of the dataset
 heart_data.head()
